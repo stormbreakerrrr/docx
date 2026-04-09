@@ -1,83 +1,233 @@
-<section id="projects">
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <title>Meenal Jain | Writer & Strategist</title>
+    <meta name="keywords" content="Meenal Jain, Technical Writer, Content Writer, Godrej, CleverTap" />
+    <meta name="description" content="Meenal Jain | Portfolio showcasing Technical Documentation and Corporate Communications." />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <body>
+    <div id="top"></div>
+
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">Meenal Jain</span>
+          <br />
+          Technical & Content Writer.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Know more</a
+          >
+        </p>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                I am a professional writer specializing in Technical Documentation and Corporate Communications. 
+                My work spans from creating developer guides for CleverTap to managing archival storytelling for Godrej.
+              </p>
+              <p class="about-wrapper__info-text">
+                I am passionate about simplifying complex technical concepts and preserving historical narratives through modern digital media.
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Portfolio</h2>
+          <h2 class="section-title dark-blue-text">Projects</h2>
 
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Technical Documentation</h3>
-                <p class="mb-4">
-                  Developing user and developer-facing documentation for <strong>CleverTap</strong>. 
-                  This includes deep dives into AI-powered tools, Web SDKs, and personalization engines 
-                  designed for high-scale enterprise environments.
-                </p>
-                <div class="cta-links">
-                  <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://docs.clevertap.com/docs/getting-started">View Docs</a>
-                  <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://developer.clevertap.com/docs/web-overview">Dev Portal</a>
+                <div>
+                  <p class="mb-4">
+                    User and Developer documentation for CleverTap across AI, web, and personalisation. 
+                    Ensuring seamless integration for developers and clear guidance for end-users.
+                  </p>
                 </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="http://docs.clevertap.com/docs/getting-started"
+                >
+                  See Live
+                </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <div data-tilt class="thumbnail rounded js-tilt">
-                  <img alt="CleverTap Docs" class="img-fluid" src="assets/project.jpg" />
-                </div>
+                <a rel="noreferrer" href="http://docs.clevertap.com/docs/getting-started" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project.jpg"
+                    />
+                  </div>
+                </a>
               </div>
             </div>
           </div>
-
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Godrej Archival Series</h3>
-                <p class="mb-4">
-                  Curating corporate history through the <strong>"Document of the Month"</strong> series and 
-                  the <strong>Vault Stories</strong> newsletter. I bridged the gap between historical 
-                  preservation and modern corporate storytelling.
-                </p>
-                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://archives.godrejenterprises.com/GodrejArchives/DOM-Lectures/dom_MAr2023_index.html">See Monthly Series</a>
+                <h3 class="project-wrapper__text-title">Godrej Archives & Newsletters</h3>
+                <div>
+                  <p class="mb-4">
+                    Published newsletters and the "Document of the Month" series for Godrej Archives. 
+                    Curating historical content to engage corporate audiences through storytelling.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://archives.godrejenterprises.com/GodrejArchives/ArchivesTimes/vault-stories.aspx?Id=31&vol=4&issue=1"
+                >
+                  See Live
+                </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <div data-tilt class="thumbnail rounded js-tilt">
-                  <img alt="Godrej Project" class="img-fluid" src="assets/project.jpg" />
-                </div>
+                <a rel="noreferrer" href="https://archives.godrejenterprises.com/GodrejArchives/ArchivesTimes/vault-stories.aspx?Id=31&vol=4&issue=1" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project.jpg"
+                    />
+                  </div>
+                </a>
               </div>
             </div>
           </div>
-
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Content & Web Design</h3>
-                <p class="mb-4">
-                  End-to-end management of digital identity for platforms like <strong>Ekalakaar</strong> 
-                  and personal ventures, combining content creation with UX/UI design.
-                </p>
-                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://ekalakaar.com/">Visit Site</a>
+                <h3 class="project-wrapper__text-title">Websites & Content Creation</h3>
+                <div>
+                  <p class="mb-4">
+                    Design and content creation for Ekalakaar and personal branding projects, 
+                    focusing on user experience and engaging digital presence.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://ekalakaar.com/"
+                >
+                  See Live
+                </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <div data-tilt class="thumbnail rounded js-tilt">
-                  <img alt="Web Design Project" class="img-fluid" src="assets/project.jpg" />
-                </div>
+                <a rel="noreferrer" href="https://ekalakaar.com/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project.jpg"
+                    />
+                  </div>
+                </a>
               </div>
             </div>
           </div>
-
+          </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">Let's connect and collaborate on your next project.</p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:meenaljain.org"
+            >Email Me</a
+          >
         </div>
       </div>
     </section>
-
-<footer class="footer navbar-static-bottom">
+    <footer class="footer navbar-static-bottom">
       <div class="container">
         <a rel="noreferrer" href="#top" class="back-to-top">
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
-        
         <div class="social-links">
           <a rel="noreferrer" href="https://www.instagram.com/p/CoeaWTPN7-i/" target="_blank">
             <i class="fa fa-instagram fa-inverse"></i>
@@ -85,7 +235,7 @@
           <a rel="noreferrer" href="https://in.linkedin.com/in/meenalljainn" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="https://github.com/[stormbreakerrrr]" target="_blank">
+          <a rel="noreferrer" href="https://github.com/cobiwave/simplefolio" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
@@ -93,11 +243,10 @@
         <hr />
 
         <p class="footer__text">
-          © 2026 - Meenal Jain | 
-          <a rel="noreferrer" href="https://in.linkedin.com/in/meenalljainn" target="_blank" style="color: #0984e3; text-decoration: none; font-weight: bold;">
-            Connect on LinkedIn
-          </a>
+          © 2026 - Meenal Jain | <a href="https://in.linkedin.com/in/meenalljainn" style="color:white; text-decoration:none;">LinkedIn Profile</a>
         </p>
-
       </div>
     </footer>
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
