@@ -1,13 +1,15 @@
 // COLORS
-$primary-color: #8f1eae; 
-$secondary-color: #a55eea; // A slightly lighter purple for gradients
+// Deep Plum/Purple accent
+$primary-color: #341539; 
+$secondary-color: #4a1d52; // Slightly lighter plum for gradients
 
-$white-color: #f5f5dc; // Changed to Beige (Off-white) for that soft contrast
+// Backgrounds
+$white-color: #000000;    // Pure Black background
+$dark-grey: #121212;      // Very dark grey for section offsets
 
-$dark-grey: #1a1a1a;   // Deep Black-Grey for backgrounds
-$light-grey: #444444;   // Lighter black for borders/sections
-
-$dark-blue-text: #8f1eae; // Switched to White/Beige so headings are visible on black
+// Text & Details
+$light-grey: #f5f5dc;     // Beige for secondary text
+$dark-blue-text: #f5f5dc; // Beige for Headings
 
 // FONT SIZE
 $default-font-size: 1.6rem;
